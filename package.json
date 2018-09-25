@@ -1,0 +1,26 @@
+{
+    "name"         : "node-red-contrib-audio-filter",
+    "version"      : "1.0.0",
+    "description"  : "A Node-Red node to filter PCM audio chunks",
+    "dependencies": {
+        "fili": "2.0.1"
+    },
+    "author": {
+        "name": "Bart Butenaers"
+    },
+    "license": "Apache-2.0",
+    "keywords": [ "node-red", "pcm", "audio", "sound", "filter", "pass", "high", "low", "bandwidth" ],
+    "bugs": {
+        "url": "https://github.com/bartbutenaers/node-red-contrib-audio-filter/issues"
+    },
+    "homepage": "https://github.com/bartbutenaers/node-red-contrib-audio-filter",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bartbutenaers/node-red-contrib-audio-filter.git"
+    },
+    "node-red"     : {
+        "nodes": {
+            "audio-filter": "audio_filter.js"
+        }
+    }
+}
